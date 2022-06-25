@@ -1,0 +1,19 @@
+body {
+  background: #352f5b;
+}
+.container {
+  max-width: 400px;
+}
+.todos li {
+  color: #d6edff;
+  background: #423a6f;
+}
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
